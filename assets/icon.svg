@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Balance Lite">
+  <!-- A bare glyph, not a framed tile: the plugin list supplies its own container, so a
+       border here would draw a box inside a box. Literal colours, never `currentColor`:
+       the host renders this file through `<img src="data:...">` (see the same note in
+       dsh-dcp's icon), where the SVG is its own document and `currentColor` would resolve
+       to the UA's `canvastext` rather than a theme token. This violet reads against both
+       the light and the dark card. -->
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#6E56CF" stroke-opacity="0.28" stroke-width="7"/>
+  <path d="M32 12 A20 20 0 1 1 15.82 43.76" fill="none" stroke="#6E56CF" stroke-width="7" stroke-linecap="round"/>
+</svg>

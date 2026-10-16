@@ -1,0 +1,7 @@
+# @zzxxxxxx/dsh-balance-lite bundle 层。
+#
+# 行名必须等于包名：client-modules 用 `<row name>/package.json` 解析浏览器产物，
+# 子路径形式的行不会携带客户端半（见 docs/cookbook/adding-a-settings-card.md）。
+- insert:
+    - id: dsh-balance-lite
+      name: '@zzxxxxxx/dsh-balance-lite'
